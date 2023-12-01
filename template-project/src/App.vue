@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  
+  <Wejscowka/>
+  <MainPage/>
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
+import Wejscowka from './components/Wejscowka.vue'
+import MainPage form './components/MainPage.vue'
 
 export default {
   name: 'App',
   components: {
-    //HelloWorld
+    Wejscowka,
+    MainPage
   }
 }
 </script>
